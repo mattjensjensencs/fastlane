@@ -65,6 +65,7 @@ module Fastlane
             vpn_configuration: 'vpn_conf',
             wallet: 'wallet',
             wireless_accessory: 'wireless_conf'
+            apple_id_auth: 'apple_id_auth'
         }
       end
 

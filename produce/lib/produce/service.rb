@@ -302,6 +302,16 @@ module Produce
         end
       end
 
+      if options.apple_id_auth
+        UI.message("\tSign in with Apple")
+
+        if on
+          app.update_service(Spaceship.app_service.apple_id_auth.on)
+        else
+          app.update_service(Spaceship.app_service.apple_id_auth.off)
+        end
+      end
+
       updated
     end
 

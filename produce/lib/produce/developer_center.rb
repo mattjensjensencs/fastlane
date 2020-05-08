@@ -38,7 +38,8 @@ module Produce
       siri_kit: [SERVICE_ON, SERVICE_OFF],
       vpn_configuration: [SERVICE_ON, SERVICE_OFF],
       wallet: [SERVICE_ON, SERVICE_OFF],
-      wireless_accessory: [SERVICE_ON, SERVICE_OFF]
+      wireless_accessory: [SERVICE_ON, SERVICE_OFF],
+      apple_id_auth: [SERVICE_ON, SERVICE_OFF]
     }
 
     def run
